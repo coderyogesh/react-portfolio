@@ -21,7 +21,7 @@
     "sass-loader": "^11.1.1"
   },
   "scripts": {
-    "deploy": "gh-pages-deploy",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
